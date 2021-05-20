@@ -1,2 +1,5 @@
 # Fetal-Health-Classification
 Machine Learning Project that uses cardiotocogram data to classify fetal health. 
+Fetal health has long been an issue the medical world is trying to predict in the early stage of pregnancy as spotting the problem early on can leave time for the health care professionals and parents to prepare for the challenges. Hence, our team decides to use the data set taken from Kaggle, entitled Fetal Health Classification (https://www.kaggle.com/andrewmvd/fetal-health-classification), to train and learn the model of classifying fetus' health.
+
+The three categories of the fetus' health are suspect, healthy, and pathological. We tested various methods, including soft voting ensemble learning, random forest, Ada-boosting with decision tree, and artificial neural network. The best result is produced by random forest, which gives an average recall of 0.93 and an average precision of 0.91. Specifically, the recall of pathological class is 0.966, indicating that we can detect over 96% of pathological fetus, which is a very promising result.
